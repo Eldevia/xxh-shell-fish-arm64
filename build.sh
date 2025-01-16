@@ -21,7 +21,7 @@ do
     cp $CDIR/$f $build_dir/
 done
 
-url='https://github.com/xxh/fish-portable/releases/download/3.4.1/fish-portable-musl-alpine-Linux-x86_64.tar.gz'
+url='https://github.com/fish-shell/fish-shell/releases/download/4.0b1/fish-static-linux-aarch64.tar.xz'
 tarname=`basename $url`
 
 cd $build_dir
