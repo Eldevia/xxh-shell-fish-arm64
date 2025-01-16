@@ -90,7 +90,7 @@ done
 CURRENT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$CURRENT_DIR" || exit
 
-fish_bin=$CURRENT_DIR/fish-portable/bin/fish.sh
+fish_bin=$CURRENT_DIR/fish-portable/fish
 
 # Check
 if [[ ! -f .entrypoint-check-done ]]; then
