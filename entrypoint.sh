@@ -159,4 +159,4 @@ for pluginrc_file in $(find "$CURRENT_DIR"/../../../plugins/xxh-plugin-*/build -
 done
 
 cd "$HOME" || exit
-$fish_bin --interactive --init-command="source $XXH_HOME/.xxh/shells/xxh-shell-fish/build/xxh-config.fish" "${EXECUTE_COMMAND_ARRAY[@]}" $EXECUTE_FILE
+$fish_bin --interactive --init-command="source $XXH_HOME/.xxh/shells/xxh-shell-fish-arm/build/xxh-config.fish" "${EXECUTE_COMMAND_ARRAY[@]}" $EXECUTE_FILE
